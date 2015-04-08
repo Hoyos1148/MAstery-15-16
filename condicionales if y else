@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	//mastery 15 & 16
+	int x, Re;
+	cout<<"Dame un numero"<<endl;
+	cin>>x;
+	if(x>=0 && x<=100)
+	{
+		cout<<"tu numero es uno de los primero cien"<<endl;
+		Re= x + x;
+		cout<<Re;
+		
+	}
+	else
+	{
+		cout<<"tu numero o es mayor a cien o es un numero negativo"<<endl;
+	}
+}
